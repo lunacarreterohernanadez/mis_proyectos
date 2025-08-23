@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Total de Ventas - Supermercado</title>
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <h1>Supermercado El Espinal</h1>
+
+  <button onclick="principal()">Registrar ventas</button>
+
+  <table id="tablaResultado" >
+    <thead>
+      <tr>
+        <th>Producto</th>
+        <th>Precio</th>
+        <th>Cantidad</th>
+        <th>Subtotal</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Se llena con JS -->
+    </tbody>
+    <tfoot>
+      <tr>
+        <td colspan="3"><strong>Total Ventas</strong></td>
+        <td id="total"></td>
+      </tr>
+    </tfoot>
+  </table>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
